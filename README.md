@@ -1,7 +1,8 @@
 # Real-Time Clickstream Data Pipeline with Kafka and Snowflake
-![alt text](<screenshots/system design.jpeg>)
+
 ## Project Overview
 This project demonstrates real-time migration of clickstream data using Kafka and Snowflake. A custom Python package generates random clickstream data, which is then streamed via Kafka and ingested into Snowflake for scalable storage and analytics. The Kafka broker runs on a Docker container, showcasing an efficient integration setup.
+![alt text](<screenshots/system design.jpeg>)
 
 ---
 
@@ -28,7 +29,7 @@ Run the following command to start the Kafka broker:
 docker-compose up
 ```
 
-~~ Note: This setup uses a single broker configuration. Future updates will include multi-broker and multi-cluster setups for enhanced scalability and fault tolerance.
+> **Note**: This setup uses a single broker configuration. Future updates will include multi-broker and multi-cluster setups for enhanced scalability and fault tolerance.
 
 
 ### 3. Activate Virtual Environment
@@ -103,5 +104,5 @@ Support for multi-broker and multi-cluster Kafka configurations.
 Implement real-time processing of clickstream data before migration.
 Add monitoring for data pipeline health and performance.
 
-## Contributing
+## 🤝 Contributing
 Contributions are welcome! Feel free to submit issues or pull requests for new features or bug fixes.
